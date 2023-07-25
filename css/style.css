@@ -107,7 +107,7 @@ input:focus-visible {outline: none;}
     text-shadow: 0 0 1px #455a64,  0 0 1px #455a64;
 }
 /* Small to Medium Screen */
-@media (max-width: 991px) 
+@media (max-width: 900px) 
 {
  
 
@@ -132,7 +132,12 @@ input:focus-visible {outline: none;}
 /********* Start Footer *********/ 
 footer {
     background-color: #374850;
-    padding: 10px 0;
+    
+    padding: 10px 10px 0px 10px;
+ position: fixed;
+    bottom: 0px;
+    right: 0;
+    left: 0;
 }
 
 footer i {
